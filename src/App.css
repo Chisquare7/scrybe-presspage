@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&display=swap');
+
+
+*, *::before, *::after {
+  margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+  /* text-decoration: none; */
+	list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, input, textarea, label, span, button {
+  font-family: 'Kanit', sans-serif;
+}
+
+.sect__container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* Styling of the first section */
+
+.first__heading {
+  margin: 1em 0;
+}
+
+.first__sect-head {
+  font-size: 2rem;
+  color: #3F3F3F;
+  font-weight: 700;
+  font-style: bold;
+  fill: solid;
+  line-height: 2.5rem;
+}
+
+.first__subhead {
+  margin-bottom: 1em;
+}
+
+.first__sect-left .first__sect-subtext {
+  font-size: .8rem;
+  color: #3F3F3F;
+  font-weight: 300;
+  font-style: light;
+  fill: solid;
+  line-height: 1.25rem;
+}
+
+.first__sect-subtext .first__inline-text {
+  font-size: .9rem;
+  color: #006CFF;
+  font-weight: 300;
+  font-style: light;
+  fill: solid;
+  line-height: 1.25rem;
+}
+
+.first__sect-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.5em;
+}
+
+.first__sect-input .first__input-field {
+  padding: .8em .8em;
+  margin-bottom: 1em;
+  outline: none;
+  border: 1px solid #cccc;
+  border-radius: .2rem;
+  font-size: .7rem;
+  color: #e2e2e2;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1rem;
+}
+
+.first__sect-input .first__input-btn {
+  padding: .8em .8em;
+  margin-bottom: 1em;
+  background: #006CFF;
+  outline: none;
+  border: none;
+  border-radius: .2rem;
+  font-size: .7rem;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-style: medium;
+  line-height: 1rem;
+}
+
+
+/* Styling of the second section */
+
+.second__sect-content {
+  margin-bottom: 2em;
+}
+
+.second__sect-content .second__each {
+  width: 30%;
+}
+
+
+
+/* Styling of the third section */
+
+.third__section {
+  background: #E6F0FF;
+  border-top-right-radius: 10rem;
+  padding: 4em 0 1em;
+  margin-bottom: 3em;
+}
+
+.third__sect-left {
+  display: none;
+}
+
+.third__heading {
+  margin-bottom: 2em;
+}
+
+.third__heading .third__head {
+  font-size: 2rem;
+  color: #3F3F3F;
+  font-weight: 700;
+  font-style: bold;
+  fill: solid;
+  line-height: 2rem;
+}
+
+.third__btm {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.third__btm-right {
+  width: 60%;
+}
+
+.third__btm-left {
+  width: 20%;
+}
+
+.third__btm-left .third__btm-icon {
+  width: 2.5rem;
+}
+
+.third__btm-right .third__btm-head {
+  font-size: .8rem;
+  color: #3F3F3F;
+  font-weight: 700;
+  font-style: bold;
+  fill: solid;
+  line-height: 1.25rem;
+}
+
+.third__btm-subhead .third__btm-subtext {
+  font-size: .8rem;
+  color: #3F3F3F;
+  font-weight: 300;
+  font-style: light;
+  fill: solid;
+  line-height: 1.25rem;
+}
+
+
+/* Styling of the fourth section */
+
+.fourth__content {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.fourth__content .fourth__heading, .fourth__content .fourth__action {
+  text-align: center;
+}
+
+.fourth__heading .fourth__head {
+  font-size: 1.7rem;
+  color: #3F3F3F;
+  font-weight: 700;
+  font-style: bold;
+  fill: solid;
+  line-height: 2rem;
+}
+
+.fourth__content .fourth__action {
+  margin-bottom: 4em;
+}
+
+.fourth__action .fourth__btn {
+  /* width: 100%; */
+  padding: 1em 3.5em;
+  margin-top: 1.5em;
+  background: #006CFF;
+  outline: none;
+  border: none;
+  border-radius: .2rem;
+  font-size: .7rem;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-style: medium;
+  line-height: 1rem;
+}
+
+.form__top {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.form__heading {
+  margin-bottom: 1em;
+}
+
+.form__heading .form__head {
+  font-size: 1.7rem;
+  color: #3F3F3F;
+  font-weight: 700;
+  font-style: bold;
+  fill: solid;
+  line-height: 2rem;
+}
+
+.form__subhead {
+  text-align: center;
+  width: 95%;
+  margin-bottom: 3em;
+}
+
+.form__subhead .form__subtext {
+  font-size: .8rem;
+  color: #3F3F3F;
+  font-weight: 300;
+  font-style: light;
+  fill: solid;
+  line-height: 1.2rem;
+}
+
+.input__overall {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.input__flex .label__name {
+  display: flex;
+  flex-direction: column;
+  font-size: .6rem;
+  color: #6A6A6A;
+  font-weight: 400;
+  font-style: normal;
+  fill: solid;
+  line-height: 1rem;
+  margin-bottom: 1em;
+}
+
+#company__name, #company__email, #employees__number, #customer__number, #customer__address, #city, #state {
+  font-weight: 300;
+  border: 1px solid #cccc;
+  border-radius: .3rem;
+  padding: 1em .8em;
+  color: #6A6A6A;
+  font-size: .7rem;
+  outline: none;
+}
+
+.input__btn {
+  margin-top: 1em;
+}
+
+#submit__btn {
+  width: 100%;
+  font-weight: 500;
+  border: none;
+  border-radius: .3rem;
+  padding: 1em .8em;
+  background: #006CFF;
+  color: #FFFFFF;
+  font-size: .7rem;
+  line-height: 1.5rem;
+  outline: none;
+}
+
+
+/* Styling of the fifth bottom section */
+
+.fifth__sect-btm {
+  background: #E6F0FF;
+  margin: 5em 0;
+  padding: 1em 0;
+  border-radius: 1rem;
+}
+
+.fifth__sect-btm .fifth__btm-content {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.fifth__btm-content .fifth__btm-left {
+  margin-top: 1.5em;
+}
+
+.fifth__btm-left .fifth__left-heading {
+  width: 95%;
+  text-align: center;
+  margin-bottom: 1.2em;
+}
+
+.fifth__left-heading .fifth__left-head {
+  font-size: 1.1rem;
+  color: #454545;
+  font-weight: 600;
+  font-style: light;
+  fill: solid;
+  line-height: 1.2rem;
+}
+
+.fifth__left-subhead {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.fifth__left-subhead .fifth__left-subtext {
+  font-size: .7rem;
+  color: #3F3F3F;
+  font-weight: 300;
+  font-style: light;
+  fill: solid;
+  line-height: 1.2rem;
+}
+
+.fifth__sect-action {
+  width: 70%;
+  margin: 1.2em auto 0;
+}
+
+.fifth__btn-first {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.fifth__btn-first .btn__act-first {
+  width: 100%;
+  font-weight: 500;
+  border: none;
+  border-radius: .3rem;
+  padding: .8em .8em;
+  background: #006CFF;
+  color: #FFFFFF;
+  font-size: .7rem;
+  line-height: 1.5rem;
+  outline: none;
+}
+
+.fifth__btn-second {
+  margin-top: 1em;
+}
+
+.fifth__btn-second .btn__act-second {
+  width: 100%;
+  background: #E6F0FF;
+  border: 1px solid #006CFF;
+  font-weight: 500;
+  border-radius: .3rem;
+  padding: .8em .8em;
+  color: #006CFF;
+  font-size: .7rem;
+  line-height: 1.5rem;
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
